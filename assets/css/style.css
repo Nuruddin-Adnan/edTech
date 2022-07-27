@@ -74,15 +74,51 @@ body {
     font-size: 20px;
     color: #fff;
     background-color: #289BDE;
+    border-color: #289BDE;
 }
 
 .btn-blue:hover {
+    color: #fff;
+    background-color: #2694d3;
     border-color: #289BDE;
-    color: #289BDE;
 }
 
 /* ===== end of component css ===== */
 
 
+/* ===== hero-banner css start ===== */
+.hero-banner .carousel-item-1 {
+    background: url(../images/cover/cover-1.png) no-repeat center center/cover;
+}
+
+.hero-banner .carousel-item-2 {
+    background: url(../images/cover/cover-2.png) no-repeat center center/cover;
+}
+
+.hero-banner .carousel-item-3 {
+    background: url(../images/cover/cover-3.png) no-repeat center center/cover;
+}
+
+/* ===== end of hero-banner css ===== */
+
 /* ===== ? css start ===== */
 /* ===== end of ? css ===== */
+
+/* ===== responsive css start ===== */
+@media screen and (min-width: 1200px) {
+
+    .hero-banner .carousel-item,
+    .hero-banner .carousel-item-inner {
+        min-height: 700px;
+    }
+
+    .hero-banner .carousel-title {
+        font-size: 4rem !important;
+    }
+
+    .hero-banner .carousel-item p {
+        font-size: 18px;
+    }
+}
+
+/* ===== end of responsive css ===== */
