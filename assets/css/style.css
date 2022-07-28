@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+ul,
+li {
+    list-style: none;
+}
+
 a,
 a:hover {
     text-decoration: none;
@@ -13,6 +18,7 @@ a:hover {
 body {
     font-family: 'Poppins', sans-serif;
     color: #777777;
+    font-weight: 400;
 }
 
 /* ===== end of base css ===== */
@@ -63,6 +69,7 @@ body {
     font-size: 20px;
     color: #289BDE;
     border-color: #289BDE;
+    font-weight: 500;
 }
 
 .btn-outline-blue:hover {
@@ -73,6 +80,7 @@ body {
 .btn-blue {
     font-size: 20px;
     color: #fff;
+    font-weight: 500;
     background-color: #289BDE;
     border-color: #289BDE;
 }
