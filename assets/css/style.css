@@ -105,6 +105,12 @@ body {
 /* ===== end of ? css ===== */
 
 /* ===== responsive css start ===== */
+@media (min-width: 768px) {
+    .popular-courses .card-img {
+        max-width: 200px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
 
     .hero-banner .carousel-item,
