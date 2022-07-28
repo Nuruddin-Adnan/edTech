@@ -1,24 +1,7 @@
 /* ===== base css start ===== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-ul,
-li {
-    list-style: none;
-}
-
-a,
-a:hover {
-    text-decoration: none;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     color: #777777;
-    font-weight: 400;
 }
 
 /* ===== end of base css ===== */
@@ -45,54 +28,7 @@ body {
     color: #777777;
 }
 
-.text-dark-4 {
-    color: #A4A4A4;
-}
-
-.text-dark-5 {
-    color: #D2D2D2;
-}
-
-.text-dark-6 {
-    color: #E8E8E8;
-}
-
-.text-dark-7 {
-    color: #F4F4F4;
-}
-
 /* ===== end of utility css ===== */
-
-
-/* ===== component css start ===== */
-.btn-outline-blue {
-    font-size: 20px;
-    color: #289BDE;
-    border-color: #289BDE;
-    font-weight: 500;
-}
-
-.btn-outline-blue:hover {
-    background-color: #289BDE;
-    color: #fff;
-}
-
-.btn-blue {
-    font-size: 20px;
-    color: #fff;
-    font-weight: 500;
-    background-color: #289BDE;
-    border-color: #289BDE;
-}
-
-.btn-blue:hover {
-    color: #fff;
-    background-color: #2694d3;
-    border-color: #289BDE;
-}
-
-/* ===== end of component css ===== */
-
 
 /* ===== hero-banner css start ===== */
 .hero-banner .carousel-item-1 {
@@ -113,7 +49,7 @@ body {
 /* ===== end of ? css ===== */
 
 /* ===== responsive css start ===== */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .popular-courses .card-img {
         max-width: 200px;
     }
@@ -124,14 +60,6 @@ body {
     .hero-banner .carousel-item,
     .hero-banner .carousel-item-inner {
         min-height: 700px;
-    }
-
-    .hero-banner .carousel-title {
-        font-size: 4rem !important;
-    }
-
-    .hero-banner .carousel-item p {
-        font-size: 18px;
     }
 }
 
