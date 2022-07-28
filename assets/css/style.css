@@ -4,63 +4,27 @@ body {
     color: #777777;
 }
 
-/* ===== end of base css ===== */
-
-
 /* ===== utility css start ===== */
-.bg-blue {
-    background-color: #289BDE;
-}
-
-.text-blue {
-    color: #289BDE;
-}
-
-.text-dark-1 {
-    color: #1D1D1D;
-}
-
-.text-dark-2 {
-    color: #4A4A4A;
-}
-
-.text-dark-3 {
-    color: #777777;
-}
-
-/* ===== end of utility css ===== */
+.bg-blue { background-color: #289BDE;}
+.text-blue { color: #289BDE;}
+.text-dark-1 { color: #1D1D1D;}
+.text-dark-2 { color: #4A4A4A;}
+.text-dark-3 {color: #777777;}
 
 /* ===== hero-banner css start ===== */
-.hero-banner .carousel-item-1 {
-    background: url(../images/cover/cover-1.png) no-repeat center center/cover;
-}
-
-.hero-banner .carousel-item-2 {
-    background: url(../images/cover/cover-2.png) no-repeat center center/cover;
-}
-
-.hero-banner .carousel-item-3 {
-    background: url(../images/cover/cover-3.png) no-repeat center center/cover;
-}
-
-/* ===== end of hero-banner css ===== */
-
-/* ===== ? css start ===== */
-/* ===== end of ? css ===== */
+.hero-banner .carousel-item-1 { background: url(../images/cover/cover-1.png) no-repeat center center/cover;}
+.hero-banner .carousel-item-2 {background: url(../images/cover/cover-2.png) no-repeat center center/cover;}
+.hero-banner .carousel-item-3 {background: url(../images/cover/cover-3.png) no-repeat center center/cover;}
 
 /* ===== responsive css start ===== */
 @media screen and (min-width: 768px) {
-    .popular-courses .card-img {
-        max-width: 200px;
-    }
+    .popular-courses .card-img { max-width: 200px;}
 }
 
 @media screen and (min-width: 1200px) {
-
     .hero-banner .carousel-item,
     .hero-banner .carousel-item-inner {
         min-height: 700px;
     }
 }
-
 /* ===== end of responsive css ===== */
